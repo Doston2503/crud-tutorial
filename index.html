@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 18</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row my-5">
+        <div class="col-xl-4 offset-4">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="text-center">
+                    Ro'yhatdan o'tish
+                </h4>
+            </div>
+            <div class="card-body">
+                <form name="registerForm">
+                    <label for="firstName">Ismingizni kiriting</label>
+                    <input
+                            class="form-control mb-3"
+                            name="firstName"
+                            id="firstName"
+                            type="text">
+
+                    <label for="lastName">Familiyangizni kiriting</label>
+                    <input
+                            class="form-control mb-3"
+                            name="lastName"
+                            id="lastName"
+                            type="text">
+
+                    <label for="bio">O'zingiz haqingizda kiriting</label>
+                    <textarea class="form-control mb-3" name="bio" id="bio" cols="30" rows="3"></textarea>
+                </form>
+            </div>
+            <div class="card-footer">
+                <button
+                        id="registerBtn"
+                        class="btn btn-secondary d-block w-100">Ro'yhatdan o'tish</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="row" id="user-list">
+
+    </div>
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
